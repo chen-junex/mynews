@@ -40,7 +40,7 @@ import com.yan.common.login.model.LoginUser;
  *
  * 描述：自定义登录Interceptor拦截器，用户拦截未登录的请求（废弃使用，改为shiro认证）<br>
  *
- * @author Yanzheng 严正<br>
+ * @author Yanzheng chen<br>
  * 时间：<br>
  * 2017-08-01 12:45:08<br>
  * 版权：<br>
@@ -65,7 +65,7 @@ public class LoginInterceptor implements HandlerInterceptor {
 		}
 
 		String uri = request.getRequestURI();
-		log.debug("Yan -> 执行 LoginInterceptor - preHandle() 拦截到请求的 uri = " + uri);
+		log.debug("chen -> 执行 LoginInterceptor - preHandle() 拦截到请求的 uri = " + uri);
 
 		if (uri.contains("/signin")) {
 			return true;
@@ -75,13 +75,13 @@ public class LoginInterceptor implements HandlerInterceptor {
 
 		if (request.getHeader("x-requested-with") != null && request.getHeader("x-requested-with").equalsIgnoreCase("XMLHttpRequest")) {
 			// 如果是ajax请求响应头会有，x-requested-with
-			log.debug("Yan -> 执行 LoginInterceptor - preHandle() 当前是ajax请求.");
+			log.debug("chen -> 执行 LoginInterceptor - preHandle() 当前是ajax请求.");
 			PrintWriter out = response.getWriter();
 			out.print("nologin");// session失效
 			out.flush();
 			return false;
 		} else {
-			log.debug("Yan -> 执行 LoginInterceptor - preHandle() 用户没有登录.");
+			log.debug("chen -> 执行 LoginInterceptor - preHandle() 用户没有登录.");
 			response.sendRedirect(request.getContextPath() + "/views/login.jsp");
 			return false;
 		}

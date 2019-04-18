@@ -13,7 +13,7 @@ import com.yan.core.model.MsgModel;
  *
  * 描述：系统设置模块<br>
  *
- * @author Yanzheng 严正<br>
+ * @author Yanzheng chen<br>
  * 时间：<br>
  * 2017-09-29 16:33:41<br>
  * 版权：<br>

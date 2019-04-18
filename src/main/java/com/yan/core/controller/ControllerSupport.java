@@ -56,7 +56,7 @@ import com.yan.core.support.BaseSupport;
  * 该类提供了获取mapper、动态设置数据源、分页、返回Page、Msg对象、文件上传下载等方法，
  * 父类提供了封装好的工具类方法。（方法详细见参考信息）<br>
  *
- * @author Yanzheng 严正<br>
+ * @author Yanzheng chen<br>
  * 时间：<br>
  * 2017-08-25 16:05:05<br>
  * 版权：<br>

@@ -36,7 +36,7 @@ import com.yan.core.model.PageModel;
  *
  * 描述：自定义的代理Mapper，封装了常用CRUD操作<br>
  *
- * @author Yanzheng 严正<br>
+ * @author Yanzheng chen<br>
  * 时间：<br>
  * 2017-08-20 10:12:38<br>
  * 版权：<br>

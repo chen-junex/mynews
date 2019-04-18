@@ -31,14 +31,14 @@ import com.yan.core.annotation.MapperInject;
 import com.yan.core.controller.BaseController;
 import com.yan.core.model.PageModel;
 
+import com.yan.util.DateConverter;
+import com.yan.util.DateUtil;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -79,13 +79,28 @@ public class EvaluateController extends BaseController {
         List<Evaluate> list = mapper.selectByExample(null);
         return this.resultPage(list);
     }
+    @ResponseBody
+    @RequestMapping(value = "/insertEvaluate",produces ="text/html; charset=utf-8")
+    public String getEvaluateById(@RequestBody Evaluate evaluate) {
+         if(evaluate!=null){
+             Date a =DateUtil.formatStringTodate(evaluate.getEvaluate_datetime(),null);
+         }
+        int flag = mapper.insertSelective(evaluate);
+        if(flag>0){
+            return "1";
+        }
+        return null;
+    }
+//   陈
+
 
     @ResponseBody
     @RequestMapping(value = "/getEvaluateById",produces ="text/html; charset=utf-8")
-    public String getEvaluateById(String news_id) {
-
+    public String insertEvaluate(String news_id) {
         List<Evaluate> list = mapper.selectById(news_id);
-
+//        for(Evaluate e:list){
+////            e.setEvaluate_datetime(DateUtil.formatDateToString(e.getEvaluate_datetime(),DateUtil.YYYY_MM_DD_HH_MM_SS));
+//        }
 //        JSONArray jsonArray = JSONArray.parseArray(JSON.toJSONString(list));
 //        Map<String,Evaluate> evaluateMap = new HashMap<>();
 //        JSONObject jsonobj = new JSONObject();
@@ -104,5 +119,6 @@ public class EvaluateController extends BaseController {
 //        return JSONUtils.toJSONString(jsonArray);
         return JSON.toJSONString(list);
     }
+
 
 }

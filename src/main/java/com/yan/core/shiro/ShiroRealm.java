@@ -37,7 +37,7 @@ import org.apache.shiro.subject.PrincipalCollection;
  *
  * 描述：域 realm 实现类<br>
  *
- * @author Yanzheng 严正<br>
+ * @author Yanzheng chen<br>
  * 时间：<br>
  * 2017-09-14 13:16:45<br>
  * 版权：<br>

@@ -18,7 +18,7 @@ import com.yan.demo.product.model.TbProduct;
  *
  * 描述：产品信息管理<br>
  *
- * @author Yanzheng 严正<br>
+ * @author Yanzheng chen<br>
  * 时间：<br>
  * 2017-09-06 09:13:00<br>
  * 版权：<br>

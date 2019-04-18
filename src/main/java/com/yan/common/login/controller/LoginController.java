@@ -33,7 +33,7 @@ import javax.servlet.http.HttpServletResponse;
  * <p>
  * 描述：登录模块<br>
  *
- * @author Yanzheng 严正<br>
+ * @author Yanzheng chen<br>
  * 时间：<br>
  * 2017-08-22 12:52:52<br>
  * 版权：<br>
@@ -75,7 +75,7 @@ public class LoginController extends BaseController {
             loginUser.setUserRoles(userRoles);
 
 
-        System.out.println("Yan -> Log 输出：" + loginUser);
+        System.out.println("chen -> Log 输出：" + loginUser);
 
         try {
             Subject subject = SecurityUtils.getSubject();

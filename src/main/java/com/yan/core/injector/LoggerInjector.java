@@ -39,7 +39,7 @@ import com.yan.core.annotation.LogInject;
  *
  * 描述：自定义Logger注入器，用户注解注入Logger对象<br>
  *
- * @author Yanzheng 严正<br>
+ * @author Yanzheng chen<br>
  * 时间：<br>
  * 2017-08-24 15:13:36<br>
  * 版权：<br>

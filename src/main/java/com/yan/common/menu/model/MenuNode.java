@@ -7,7 +7,7 @@ import java.util.List;
  *
  * 描述：菜单模型<br>
  *
- * @author Yanzheng 严正<br>
+ * @author Yanzheng chen<br>
  * 时间：<br>
  * 2017-09-09 12:11:40<br>
  * 版权：<br>

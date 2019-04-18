@@ -34,7 +34,7 @@ import java.lang.annotation.Target;
  *
  * 描述：自定义注解（用户注入Logger对象）<br>
  *
- * @author Yanzheng 严正<br>
+ * @author Yanzheng chen<br>
  * 时间：<br>
  * 2017-08-24 17:38:53<br>
  * 版权：<br>

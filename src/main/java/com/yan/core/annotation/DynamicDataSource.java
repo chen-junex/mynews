@@ -36,7 +36,7 @@ import com.yan.core.constant.DataSourceName;
  *
  * 描述：动态数据源切换注解（默认切换扩展数据源）<br>
  *
- * @author Yanzheng 严正<br>
+ * @author Yanzheng chen<br>
  * 时间：<br>
  * 2017-09-06 11:17:12<br>
  * 版权：<br>

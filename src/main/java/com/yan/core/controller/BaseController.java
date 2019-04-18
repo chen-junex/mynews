@@ -42,7 +42,7 @@ import com.yan.core.support.BaseSupport;
  * 该类提供设置与获取session、request、response的方法，父类提供一系列支持方法，
  * 自定义业务层controller需继承该类方可使用已封装好的方法。（方法详细见参考信息）<br>
  *
- * @author Yanzheng 严正<br>
+ * @author Yanzheng chen<br>
  * 时间：<br>
  * 2017-08-02 14:15:18<br>
  * 版权：<br>

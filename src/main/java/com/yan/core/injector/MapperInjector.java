@@ -40,7 +40,7 @@ import com.yan.core.persistence.DelegateMapper;
  *
  * 描述：自定义Mapper注入器，用户注解注入Mapper对象<br>
  *
- * @author Yanzheng 严正<br>
+ * @author Yanzheng chen<br>
  * 时间：<br>
  * 2017-08-24 16:32:37<br>
  * 版权：<br>

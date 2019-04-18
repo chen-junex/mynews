@@ -24,7 +24,7 @@ import com.yan.core.model.PageModel;
  *
  * 描述：日志查看管理<br>
  *
- * @author Yanzheng 严正<br>
+ * @author Yanzheng chen<br>
  * 时间：<br>
  * 2017-08-27 09:12:36<br>
  * 版权：<br>

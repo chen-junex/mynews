@@ -17,6 +17,7 @@ public interface EvaluateMapper {
      */
     List<Evaluate> selectByExample(SysUserExample example);
     List<Evaluate> selectById(String news_id);
+    int insertSelective(Evaluate evaluate);
 
 
 }

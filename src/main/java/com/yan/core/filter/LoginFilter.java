@@ -44,7 +44,7 @@ import com.yan.common.login.model.LoginUser;
  *
  * 描述：自定义登录过滤器 Filter，对未登录的 *.jsp 进行过滤拦截（废弃使用，改为shiro认证）<br>
  *
- * @author Yanzheng 严正<br>
+ * @author Yanzheng chen<br>
  * 时间：<br>
  * 2017-08-01 14:22:25<br>
  * 版权：<br>
@@ -83,7 +83,7 @@ public class LoginFilter implements Filter {
 				+ "/views/login.jsp";
 
 		String uri = req.getRequestURI();
-		log.debug("Yan -> 执行 LoginFilter - doFilter() 请求参数 : uri = " + uri);
+		log.debug("chen -> 执行 LoginFilter - doFilter() 请求参数 : uri = " + uri);
 
 		if (uri.endsWith("login.jsp")) {
 			chain.doFilter(request, response);

@@ -26,7 +26,7 @@ import com.yan.core.persistence.DelegateMapper;
  *
  * 描述：首页主控制器，包含一些通用的方法（模板查看、菜单加载、文件下载...）<br>
  *
- * @author Yanzheng 严正<br>
+ * @author Yanzheng chen<br>
  * 时间：<br>
  * 2017-09-11 09:10:21<br>
  * 版权：<br>

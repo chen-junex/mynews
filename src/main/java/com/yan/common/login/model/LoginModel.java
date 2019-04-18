@@ -7,7 +7,7 @@ import java.io.Serializable;
  *
  * 描述：登录模型<br>
  *
- * @author Yanzheng 严正<br>
+ * @author Yanzheng chen<br>
  * 时间：<br>
  * 2017-08-22 10:52:18<br>
  * 版权：<br>

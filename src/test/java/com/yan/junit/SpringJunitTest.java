@@ -38,20 +38,20 @@ public class SpringJunitTest {
     @Test
     public void test() {
 
-        log.debug("Yan -> 执行 Junit - test() 开始...[Begin]...");
+        log.debug("chen -> 执行 Junit - test() 开始...[Begin]...");
 
         List<Map<String, Object>> sysUserList = delegateMapper.selectList("com.yan.junit.JunitMapper.getSysUser");
-        System.out.println("Yan -> sysUserList : " + sysUserList);
+        System.out.println("chen -> sysUserList : " + sysUserList);
 
         DataSourceContextHolder.setDataSource("extendDataSource");// 切换数据源
         List<TbProduct> productList = mapper.selectByExample(null);
-        System.out.println("Yan -> productList" + productList);
+        System.out.println("chen -> productList" + productList);
         DataSourceContextHolder.clearDataSource();// 清楚数据源（恢复默认数据源）
 
         List<Map<String, Object>> logList = delegateMapper.selectList("com.yan.junit.JunitMapper.getLoggingEvent");
-        System.out.println("Yan -> logList : " + logList);
+        System.out.println("chen -> logList : " + logList);
 
-        log.debug("Yan -> 执行 Junit - test() 完毕...[End]...");
+        log.debug("chen -> 执行 Junit - test() 完毕...[End]...");
     }
 
 }

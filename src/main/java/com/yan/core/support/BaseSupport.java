@@ -47,7 +47,7 @@ import java.util.UUID;
  *
  * 描述：基本的通用的工具支持类，包括一系列常用方法的封装，为子类提供便捷的调用方式<br>
  *
- * @author Yanzheng 严正<br>
+ * @author Yanzheng chen<br>
  * 时间：<br>
  * 2017-09-08 15:31:07<br>
  * 版权：<br>

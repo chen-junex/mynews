@@ -35,7 +35,7 @@ import com.github.pagehelper.Page;
  *
  * 描述：自定义封装好的分页Page对象，与页面 boostrapTable 插件交互使用<br>
  *
- * @author Yanzheng 严正<br>
+ * @author Yanzheng chen<br>
  * 时间：<br>
  * 2017-08-03 16:16:27<br>
  * 版权：<br>

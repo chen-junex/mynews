@@ -44,7 +44,7 @@ import org.springframework.util.ClassUtils;
  *
  * 描述：自定义 typeAliasesPackage 支持通配符，为 mybatisMapper.xml 支持别名（废弃使用）<br>
  *
- * @author Yanzheng 严正<br>
+ * @author Yanzheng chen<br>
  * 时间：<br>
  * 2017-08-06 18:17:11<br>
  * 版权：<br>
@@ -100,7 +100,7 @@ public class SqlSessionFactoryBeanExtend extends SqlSessionFactoryBean {
 			}
 		} catch (IOException e) {
 			e.printStackTrace();
-			log.warn("Yan -> 执行 YanSqlSessionFactoryBean - setTypeAliasesPackage() 异常 : IOException = "+ e.getMessage());
+			log.warn("chen -> 执行 YanSqlSessionFactoryBean - setTypeAliasesPackage() 异常 : IOException = "+ e.getMessage());
 		}
 	}
 }

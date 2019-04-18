@@ -41,7 +41,7 @@ public class Evaluate implements Serializable {
 
     private int evaluate_id;
     private String evaluate_context;
-    private Date evaluate_datetime;
+    private String evaluate_datetime;
     private String user_id;
     private String user_name;
     private String news_id;
@@ -82,11 +82,11 @@ public class Evaluate implements Serializable {
         this.evaluate_context = evaluate_context;
     }
 
-    public Date getEvaluate_datetime() {
+    public String getEvaluate_datetime() {
         return evaluate_datetime;
     }
 
-    public void setEvaluate_datetime(Date evaluate_datetime) {
+    public void setEvaluate_datetime(String evaluate_datetime) {
         this.evaluate_datetime = evaluate_datetime;
     }
 

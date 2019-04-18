@@ -30,7 +30,7 @@ import java.io.Serializable;
  *
  * 描述：消息模型<br>
  *
- * @author Yanzheng 严正<br>
+ * @author Yanzheng chen<br>
  * 时间：<br>
  * 2017-09-07 15:44:59<br>
  * 版权：<br>

@@ -30,7 +30,7 @@ import org.springframework.jdbc.datasource.lookup.AbstractRoutingDataSource;
  *
  * 描述：动态切换数据源支持器<br>
  *
- * @author Yanzheng 严正<br>
+ * @author Yanzheng chen<br>
  * 时间：<br>
  * 2017-08-10 16:17:11<br>
  * 版权：<br>

@@ -381,32 +381,32 @@
             <version>1.2.46</version>
         </dependency>
         <!--commons包-->
-        <!--<dependency>-->
-            <!--<groupId>commons-lang</groupId>-->
-            <!--<artifactId>commons-lang</artifactId>-->
-            <!--<version>2.6</version>-->
-        <!--</dependency>-->
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+            <version>2.6</version>
+        </dependency>
 <!--日志包-->
-        <!--<dependency>-->
-            <!--<groupId>org.slf4j</groupId>-->
-            <!--<artifactId>slf4j-log4j12</artifactId>-->
-            <!--<version>1.7.12</version>-->
-        <!--</dependency>-->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>1.7.12</version>
+        </dependency>
 
-        <!--<dependency>-->
-            <!--<groupId>commons-net</groupId>-->
-            <!--<artifactId>commons-net</artifactId>-->
-            <!--<version>3.0</version>-->
-        <!--</dependency>-->
+        <dependency>
+            <groupId>commons-net</groupId>
+            <artifactId>commons-net</artifactId>
+            <version>3.0</version>
+        </dependency>
 
-        <!--&lt;!&ndash;音频播放器&ndash;&gt;-->
-        <!--&lt;!&ndash; https://mvnrepository.com/artifact/javazoom/jlayer &ndash;&gt;-->
-        <!--<dependency>-->
-            <!--<groupId>javazoom</groupId>-->
-            <!--<artifactId>jlayer</artifactId>-->
-            <!--<version>1.0.1</version>-->
-        <!--</dependency>-->
-        <!--&lt;!&ndash; https://mvnrepository.com/artifact/net.sf.json-lib/json-lib &ndash;&gt;-->
+        <!--音频播放器-->
+        <!-- https://mvnrepository.com/artifact/javazoom/jlayer -->
+        <dependency>
+            <groupId>javazoom</groupId>
+            <artifactId>jlayer</artifactId>
+            <version>1.0.1</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/net.sf.json-lib/json-lib -->
         <!--<dependency>-->
             <!--<groupId>net.sf.json-lib</groupId>-->
             <!--<artifactId>json-lib</artifactId>-->
@@ -419,11 +419,11 @@
             <!--<classifier>jdk15</classifier>-->
         <!--</dependency>-->
 
-        <!--<dependency>-->
-                    <!--<groupId>org.apache.poi</groupId>-->
-                    <!--<artifactId>poi-ooxml</artifactId>-->
-                     <!--<version>3.10-FINAL</version>-->
-        <!--</dependency>-->
+        <dependency>
+                    <groupId>org.apache.poi</groupId>
+                    <artifactId>poi-ooxml</artifactId>
+                     <version>3.10-FINAL</version>
+        </dependency>
     </dependencies>
 
 

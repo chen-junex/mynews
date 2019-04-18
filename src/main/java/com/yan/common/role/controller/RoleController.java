@@ -31,7 +31,7 @@ import com.yan.core.persistence.DelegateMapper;
  *
  * 描述：角色管理模块<br>
  *
- * @author Yanzheng 严正<br>
+ * @author Yanzheng chen<br>
  * 时间：<br>
  * 2017-09-21 10:00:57<br>
  * 版权：<br>

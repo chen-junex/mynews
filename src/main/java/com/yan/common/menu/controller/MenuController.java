@@ -27,7 +27,7 @@ import com.yan.core.persistence.DelegateMapper;
  *
  * 描述：菜单资源管理（ztree结构管理）<br>
  *
- * @author Yanzheng 严正<br>
+ * @author Yanzheng chen<br>
  * 时间：<br>
  * 2017-08-30 11:25:20<br>
  * 版权：<br>

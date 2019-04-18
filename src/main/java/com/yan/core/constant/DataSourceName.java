@@ -28,7 +28,7 @@ package com.yan.core.constant;
  *
  * 描述：常量定义，枚举类型多数据源名称<br>
  *
- * @author Yanzheng 严正<br>
+ * @author Yanzheng chen<br>
  * 时间：<br>
  * 2017-09-06 09:43:23<br>
  * 版权：<br>
