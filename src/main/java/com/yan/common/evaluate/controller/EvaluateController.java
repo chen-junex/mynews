@@ -93,7 +93,6 @@ public class EvaluateController extends BaseController {
     }
 //   陈
 
-
     @ResponseBody
     @RequestMapping(value = "/getEvaluateById",produces ="text/html; charset=utf-8")
     public String insertEvaluate(String news_id) {
