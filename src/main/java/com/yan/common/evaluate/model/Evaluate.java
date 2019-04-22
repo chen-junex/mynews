@@ -20,6 +20,8 @@
 package com.yan.common.evaluate.model;
 
 
+import com.alibaba.fastjson.annotation.JSONField;
+import com.fasterxml.jackson.annotation.JsonFormat;
 import net.sf.jsqlparser.expression.DateTimeLiteralExpression;
 
 import java.io.Serializable;
@@ -41,7 +43,8 @@ public class Evaluate implements Serializable {
 
     private int evaluate_id;
     private String evaluate_context;
-    private String evaluate_datetime;
+    @JSONField(format = "yyyy-MM-dd HH:mm:ss")
+    private Date evaluate_datetime;
     private String user_id;
     private String user_name;
     private String news_id;
@@ -82,11 +85,11 @@ public class Evaluate implements Serializable {
         this.evaluate_context = evaluate_context;
     }
 
-    public String getEvaluate_datetime() {
+    public Date getEvaluate_datetime() {
         return evaluate_datetime;
     }
 
-    public void setEvaluate_datetime(String evaluate_datetime) {
+    public void setEvaluate_datetime(Date evaluate_datetime) {
         this.evaluate_datetime = evaluate_datetime;
     }
 

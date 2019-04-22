@@ -235,6 +235,5 @@ public final class DateUtil extends DateUtils {
 		Calendar calendar = Calendar.getInstance();
 		calendar.roll(Calendar.DAY_OF_MONTH, -5);
 		System.out.println(formatDateToString(calendar.getTime(), null));
-
 	}
 }

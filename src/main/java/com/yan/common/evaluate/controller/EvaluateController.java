@@ -82,9 +82,11 @@ public class EvaluateController extends BaseController {
     @ResponseBody
     @RequestMapping(value = "/insertEvaluate",produces ="text/html; charset=utf-8")
     public String getEvaluateById(@RequestBody Evaluate evaluate) {
-         if(evaluate!=null){
-             Date a =DateUtil.formatStringTodate(evaluate.getEvaluate_datetime(),null);
-         }
+
+        if(evaluate==null){
+            return null;
+        }
+         evaluate.setEvaluate_datetime(new Date());
         int flag = mapper.insertSelective(evaluate);
         if(flag>0){
             return "1";
@@ -97,7 +99,7 @@ public class EvaluateController extends BaseController {
     @RequestMapping(value = "/getEvaluateById",produces ="text/html; charset=utf-8")
     public String insertEvaluate(String news_id) {
         List<Evaluate> list = mapper.selectById(news_id);
-//        for(Evaluate e:list){
+        //        for(Evaluate e:list){
 ////            e.setEvaluate_datetime(DateUtil.formatDateToString(e.getEvaluate_datetime(),DateUtil.YYYY_MM_DD_HH_MM_SS));
 //        }
 //        JSONArray jsonArray = JSONArray.parseArray(JSON.toJSONString(list));
@@ -118,6 +120,5 @@ public class EvaluateController extends BaseController {
 //        return JSONUtils.toJSONString(jsonArray);
         return JSON.toJSONString(list);
     }
-
 
 }
